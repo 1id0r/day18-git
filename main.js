@@ -8,8 +8,9 @@ function onBallClick() {
     currWidth = 50
     currHeight = 50
   }
-  var newHeight = currHeight + 50
-  var newWidth = currWidth + 50
+  var randomSize = getRandomInt(20, 60)
+  var newHeight = currHeight + randomSize
+  var newWidth = currWidth + randomSize
   elBall.style.height = newHeight + 'px'
   elBall.style.width = newWidth + 'px'
   elBall.innerText = newHeight
