@@ -17,3 +17,15 @@ body {
   font-weight: bold;
   transition: width 1s, height 1s, font-size 1s;
 }
+.ball2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(57, 68, 64);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  transition: width 1s, height 1s, font-size 1s;
+}
